@@ -1,10 +1,10 @@
 # Strings.xml Builder & Translator
 ## Tool written in PHP
 
-Allow everyone to translate easly your strings.xml
+*Allow everyone to translate easly your strings.xml*
 
 
-## USE IT: http://stringsxmlbuilder.netsons.org
+## TRY IT: [StringsXmlBuilder] (http://stringsxmlbuilder.netsons.org)
 
 
 
