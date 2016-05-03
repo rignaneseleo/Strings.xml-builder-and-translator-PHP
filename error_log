@@ -1,0 +1,2 @@
+[03-May-2016 15:27:29 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/uaiczwnj/public_html/builder.php:33) in /home/uaiczwnj/public_html/builder.php on line 76
+[03-May-2016 15:27:33 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /home/uaiczwnj/public_html/downloadXml.php on line 25
