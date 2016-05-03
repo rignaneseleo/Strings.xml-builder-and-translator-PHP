@@ -24,7 +24,7 @@ http://stringsxmlbuilder.netsons.org/index.php?url= *your_STRINGS.XML_LINK*
 ### To translate directly:
 #### For a generic language (with all empty):
 
-http://stringsxmlbuilder.netsons.org/builder.php?url= *your_STRINGS.XML_LINK* &lang= *the language in the google*
+http://stringsxmlbuilder.netsons.org/builder.php?url= *your_STRINGS.XML_LINK* 
 
 #### For a specific language:
 
