@@ -7,6 +7,7 @@
 ## TRY IT: [StringsXmlBuilder] (http://stringsxmlbuilder.netsons.org)
 
 
+/////////////////////////////////////////////////////////////////////////////////////////// * \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
 ## INSTRUCTIONS:
@@ -15,6 +16,10 @@
 - Get the strings.xml english file
 - Click ROW
 - Copy and paste the page url in the StringsXmlBuilder form and choose the translation language
+
+
+/////////////////////////////////////////////////////////////////////////////////////////// * \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
 
 ## CREATE YOUR OWN LINK:
 You can easly create your app link and share it to allow everyone to simply translate your app.
