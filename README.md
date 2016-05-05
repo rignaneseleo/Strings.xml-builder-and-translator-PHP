@@ -36,3 +36,8 @@ You can easly create your app link and share it to allow everyone to simply tran
 `http://stringsxmlbuilder.netsons.org/builder.php?url=`**XML_LINK**`&lang=` **TRANSLATION_LANGUAGE**
 
 ### Supported language: [GOOGLE APIs](https://cloud.google.com/translate/v2/translate-reference#supported_languages) 
+
+## Credits
+Thanks to [colresizable](http://www.bacubacu.com/colresizable/)
+
+Thanks to Stichoza for [php tranlator library] (https://github.com/Stichoza/google-translate-php)
