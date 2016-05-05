@@ -25,8 +25,10 @@
 			echo '<resources>';			
 			foreach($_POST['translatedValueIds'] as $key=>$value)
 			{
-				$value=str_replace("'", "\'", $value);//add the \'				
-				echo '<string name="'.$key.'">'.$value.'</string>';//create a <string> with its value
+				if($value!=""){
+					$value=str_replace("'", "\'", $value);//add the \'				
+					echo '<string name="'.$key.'">'.$value.'</string>';//create a <string> with its value
+				}				
 			}
 			echo '</resources>';
 			/*
