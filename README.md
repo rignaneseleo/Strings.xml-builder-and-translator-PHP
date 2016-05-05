@@ -39,4 +39,5 @@ You can easly create your app link and share it to allow everyone to simply tran
 
 ## Credits
 Thanks to [colresizable](http://www.bacubacu.com/colresizable/)
+
 Thanks to Stichoza for [php tranlator library] (https://github.com/Stichoza/google-translate-php)
