@@ -1,114 +1,33 @@
-
-
-
+.icon-block {
+	padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+body{
+	padding-bottom:50px;
+}
 /*header*/
-header {
-    margin-bottom: 18px;
-    background: rgba(47, 40, 40, 0.13);
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 22px;
+header *{
+	margin:0;
 }
-
-h1#name {
-    font-size: 28px;
-    letter-spacing: 28px;
-    margin: 0;
+header{
+	margin-bottom:48px;
 }
-
-/*body*/
-section {
-    margin-top: 20px;
-	margin-bottom: 20px;
-	padding-bottom: 10px;
-}
-section h2{
-	text-align:center !important;
-	padding-top:20px;
-}
-
-    section.project {
-        margin-top: 50px;
-    }
-
-    section.aboutme h3 {
-        margin-top: 0;
-    }
 
 /*footer*/
 footer {
-	background-color:#fff;
+	z-index: 999;
     position: fixed;
     left: 0px;
     bottom: 0px;
-    height: 50px;
+    height: 70px;
     width: 100%;
 }
-body{	
-	margin-bottom: 50px;/*to fix the height of the footer*/
-}
 
-/* IE 6 */
-* html footer {
-    position: absolute;
-    top: expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
-}
-
-    footer div {
-        height: 100%;
-        width: 16.666%;
-        float: left;
-        margin-top: 5px;
-    }
-
-        footer div:hover {
-            margin-top: 0px;
-        }
-
-        footer div h4 {
-            text-align: center;
-        }
-
-div.social.fb {
-    background: #3b5998;
-}
-
-div.social.xda {
-    background: #DE8801;
-}
-
-div.social.in {
-    background: #007bb5;
-}
-
-div.social.insta {
-    background: #125688;
-}
-
-div.social.git {
-    background: #800080;
-}
-
-div.social.fivepx {
-    background: #373737;
-}
-footer a {
-    color: #FFF;
-}
-
-  footer  a:hover {
-        color: #FFF;
-    }
-
-
-@media screen and (max-width: 360px) {
-
-    h1#name {
-        font-size: 18px;
-        letter-spacing: 18px;
-    }
-
-    footer h4 {
-        font-size: 12px;
-    }
+@media only screen and (max-width: 768px) {
+	
+	h1{
+	    font-size: 3.2rem;
+	}
 }

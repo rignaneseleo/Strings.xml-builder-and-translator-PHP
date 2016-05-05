@@ -16,7 +16,7 @@
 		
 		if($urlStringsXml!=null)//check if urlStringsXml was insered
 		{
-			header("Location:/builder.php?url=".$urlStringsXml."&lang=".$translationLanguage);//change page and go to build.php passing the xml url and the translation language
+			header("Location: builder.php?url=".$urlStringsXml."&lang=".$translationLanguage);//change page and go to build.php passing the xml url and the translation language
 		}
 	}
 ?>	
