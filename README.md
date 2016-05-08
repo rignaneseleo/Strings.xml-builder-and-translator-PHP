@@ -1,10 +1,15 @@
 # Strings.xml Builder & Translator
 ## Tool written in PHP
 
-*Allow everyone to translate easly your strings.xml*
+### Allow **everyone** to translate easly your strings.xml !
 
+## Features:
+- All strings are already translated (with google translate API), **you just have to make sure they are correct**
+- It doesn't translate the strings with the attribute `translatable="false"`
+- The apostrophes are written with the \ before
+- The output contains only translated strings in the same order of the input
 
-## TRY IT: [StringsXmlBuilder] (http://stringsxmlbuilder.netsons.org)
+## [LET S TRY StringsXmlBuilder](http://stringsxmlbuilder.netsons.org) !
 
 
 /////////////////////////////////////////////////////////////////////////////////////////// * \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
