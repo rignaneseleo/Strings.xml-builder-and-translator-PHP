@@ -1,22 +1,33 @@
-<?php 
-	/**
-		* Free Android strings.xml builder and translator
-		*
-		* @author      Leonardo Rignanese (rignaneseleo) <rignanese.leo@gmail.com>
-		*
-		* @link        http://rignaneseleo.github.io/
-		*
-		* @license     GNU GENERAL PUBLIC LICENSE  Version 2, June 1991
-	*/
-	
-	if (!empty($_POST["urlStringsXml"])){//if there is a POST request with urlStringsXml
-		
-		$urlStringsXml=$_POST["urlStringsXml"];//get the url of the strings.xml file
-		$translationLanguage=$_POST["translationLanguage"];//get the  translation language
-		
-		if($urlStringsXml!=null)//check if urlStringsXml was insered
-		{
-			header("Location: builder.php?url=".$urlStringsXml."&lang=".$translationLanguage);//change page and go to build.php passing the xml url and the translation language
+<?php
+/**
+ * Free Android strings.xml builder and translator
+ *
+ * @author      Leonardo Rignanese (rignaneseleo) <rignanese.leo@gmail.com>
+ *
+ * @link        http://rignaneseleo.github.io/
+ *
+ * @license     GNU GENERAL PUBLIC LICENSE  Version 2, June 1991
+ */
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {//if there is a POST request
+	if (!empty(trim($_POST["originalXmlURL"]))){//if there is a originalXmlURL
+		$originalXmlURL=$_POST["originalXmlURL"];//get the url of the strings.xml file
+
+		//todo validateXmlURL
+
+		//check parameters
+		$URLparameters="";
+
+		if (!empty(trim($_POST["translatedXmlURL"]))){
+			$translatedXmlURL=$_POST["translatedXmlURL"];//get the url of the translated strings.xml file
+			//todo validateXmlURL
+			$URLparameters.="&translatedXmlURL=".$translatedXmlURL;
 		}
+
+		$translationLang=$_POST["translationLang"];//get the translation language
+		if (!empty($translationLang)) $URLparameters.="&translationLang=".$translationLang;
+
+
+		header("Location: builder.php?originalXmlURL=".$originalXmlURL.$URLparameters);//change page and go to build.php passing the xml url and the translation language
 	}
-?>	
+}
+?>

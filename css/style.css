@@ -24,6 +24,18 @@ footer {
     height: 70px;
     width: 100%;
 }
+/* tabs */
+ul.tabs {
+    margin-bottom: 20px;
+}
+.tabs .indicator {
+background-color: rgb(3, 155, 232);
+}
+
+/*table*/
+tr.disabled{
+	opacity: 0.4;
+}
 
 @media only screen and (max-width: 768px) {
 	
