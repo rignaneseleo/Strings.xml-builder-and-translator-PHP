@@ -185,7 +185,7 @@
 							<div id="progressbar" class="progress hide">
 								<div  class="indeterminate"></div>
 							</div>	
-							<button style="margin-top: 10px;" type="submit"  class="waves-effect waves-light btn orange" id="generateBuilder" name="generateBuilder">Go to Builder<i class="material-icons">library_books</i></button>						
+							<button style="margin-top: 10px;" type="submit"  class="waves-effect waves-light btn orange" id="generateBuilder" name="generateBuilder">Go to Builder</button>						
 						</form>
 					</div>					
 				</div>
