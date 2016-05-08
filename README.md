@@ -5,9 +5,12 @@
 
 ## Features:
 - All strings are already translated (with google translate API), **you just have to make sure they are correct**
+- Possibility to translate starting from already translated file (useful to **update translation**)
+- Minimal and Material design
 - It doesn't translate the strings with the attribute `translatable="false"`
 - The apostrophes are written with the \ before
 - The output contains only translated strings in the same order of the input
+
 
 ## [LET S TRY StringsXmlBuilder](http://stringsxmlbuilder.netsons.org) !
 
