@@ -34,6 +34,9 @@ You can easly create your app link and share it to allow everyone to simply tran
 ### To allow to choose the language:
 `http://stringsxmlbuilder.netsons.org/index.php?originalXmlURL=`**XML_LINK**
 
+### To allow to update the translation choosing the language:
+`http://stringsxmlbuilder.netsons.org/index.php?originalXmlURL=`**Original_XML_LINK**`&translatedXmlURL=`**Old_XML_LINK** 
+
 ### To translate directly:
 #### For a generic language (with all empty):
 
