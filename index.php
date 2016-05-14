@@ -27,7 +27,7 @@
 						<form method="post" action="goBuilder.php">		
 							
 							<div class="input-field" >
-								<input type="url"  value="<?php if (!empty($_GET['originalXmlURL'])){echo $_GET['originalXmlURL'];}?>" name="originalXmlURL" class="validate" />
+								<input type="url"  value="<?php if (!empty($_GET['originalXmlURL'])){echo rawurldecode($_GET['originalXmlURL']);}?>" name="originalXmlURL" class="validate" />
 								<label for="originalXmlURL">Github Strings.xml URL</label>
 							</div>						
 							
@@ -108,12 +108,12 @@
 						<form method="post" action="goBuilder.php">		
 							
 							<div class="input-field" >
-								<input type="url"  value="<?php if (!empty($_GET['originalXmlURL'])){echo $_GET['originalXmlURL'];} ?>" name="originalXmlURL" class="validate" />
+								<input type="url"  value="<?php if (!empty($_GET['originalXmlURL'])){echo rawurldecode($_GET['originalXmlURL']);} ?>" name="originalXmlURL" class="validate" />
 								<label for="originalXmlURL">Original Strings.xml URL</label>
 							</div>
 							
 							<div class="input-field" >
-								<input type="url"  value="<?php if (!empty($_GET['translatedXmlURL'])){echo $_GET['originalXmlURL'];} ?>" name="translatedXmlURL" class="validate" />
+								<input type="url"  value="<?php if (!empty($_GET['translatedXmlURL'])){echo $_GET['translatedXmlURL'];} ?>" name="translatedXmlURL" class="validate" />
 								<label for="translatedXmlURL">Translated Strings.xml URL</label>
 							</div>	
 							
