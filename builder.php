@@ -16,11 +16,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
 		<title>StringsXml Builder & Translator | rignaneseleo</title>
 		
+		<!-- facebook  -->
+		<meta property="og:title" content="StringsXmlBuilder And Translator" />
+		<meta property="og:image" content="http://stringsxmlbuilder.netsons.org/sxb.png"/>
+		<meta property="og:site_name" content="StringsXmlBuilder" />
+		
 		<!-- CSS  -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
 		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 		
+		<!-- favicon  -->
 		<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -180,6 +186,22 @@
 					$("#FAB").attr("showStrings", "true");
 				}
 			});
+			
+			
+			var editedForms = false;
+			$(function(){				
+				// Cambio lo stato della variabile se si accede ad un elemento del form
+				$('form input, form select, form textarea').focus(function(){
+					editedForms = true;
+				});				
+			});
+			
+			window.onbeforeunload = function() {
+				if (editedForms){
+					return 'Attenction!'+'\n'+
+					'Seems that you are losing your work!';
+				}
+			}
 			
 			<?php 
 				if($translationError)

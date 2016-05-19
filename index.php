@@ -5,11 +5,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
 		<title>StringsXml Builder & Translator | rignaneseleo</title>
 		
-		<!-- CSS  -->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+		<!-- facebook  -->
+		<meta property="og:title" content="StringsXmlBuilder And Translator" />
+		<meta property="og:image" content="http://stringsxmlbuilder.netsons.org/sxb.png"/>
+		<meta property="og:site_name" content="StringsXmlBuilder" />
 		
+		<!-- CSS  -->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		
+		<!-- favicon  -->
 		<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
@@ -24,7 +30,6 @@
 		<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
 		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 		<link rel="manifest" href="favicon/manifest.json">
-		
 	</head>
 	<body>
 		<div class="section no-pad-bot" id="index-banner">
@@ -233,11 +238,13 @@
 			$(document).ready(function() {
 				$('select').material_select();	//intialize the select
 				
-				$('ul.tabs').tabs();//initialize the tabs
-				
-				$('#generateBuilder').click(function() {//intialize the progress bar
-					$('#progressbar').removeClass( "hide" );
-				});		
+				$('ul.tabs').tabs();//initialize the tabs			
+			});		
+			
+			$('#generateBuilder').click(function() {//intialize the progress bar
+				$('#progressbar').removeClass( "hide" );
+				setTimeout(function(){$('#progressbar').addClass( "hide" );
+				}, 2500);
 			});		
 		</script>
 	</body>
