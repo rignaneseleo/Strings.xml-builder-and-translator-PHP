@@ -71,16 +71,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "bb9024c526b22f3fe6ae55a561fd70653d470aa8"
+                "reference": "c10d860e2a9595f8883527fa0021c7da9e65f579"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/bb9024c526b22f3fe6ae55a561fd70653d470aa8",
-                "reference": "bb9024c526b22f3fe6ae55a561fd70653d470aa8",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/c10d860e2a9595f8883527fa0021c7da9e65f579",
+                "reference": "c10d860e2a9595f8883527fa0021c7da9e65f579",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-03-08 01:15:46"
+            "time": "2016-05-18 16:56:05"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -229,16 +229,16 @@
         },
         {
             "name": "stichoza/google-translate-php",
-            "version": "v3.2.7",
+            "version": "v3.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Stichoza/google-translate-php.git",
-                "reference": "c36f6e7b5e2ede343617d318b07b5ad9391f24d7"
+                "reference": "0e07828824c46f1bfd1822d824cf805211bf98a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Stichoza/google-translate-php/zipball/c36f6e7b5e2ede343617d318b07b5ad9391f24d7",
-                "reference": "c36f6e7b5e2ede343617d318b07b5ad9391f24d7",
+                "url": "https://api.github.com/repos/Stichoza/google-translate-php/zipball/0e07828824c46f1bfd1822d824cf805211bf98a9",
+                "reference": "0e07828824c46f1bfd1822d824cf805211bf98a9",
                 "shasum": ""
             },
             "require": {
@@ -274,7 +274,7 @@
                 "php",
                 "translate"
             ],
-            "time": "2016-02-18 07:52:23"
+            "time": "2016-05-16 08:35:53"
         }
     ],
     "packages-dev": [],

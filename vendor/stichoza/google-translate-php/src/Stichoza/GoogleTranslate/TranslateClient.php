@@ -58,11 +58,12 @@ class TranslateClient
      * @var array URL Parameters
      */
     private $urlParams = [
-        'client'   => 't',
+        'client'   => 'webapp',
         'hl'       => 'en',
+        'dt'       => null,
         'sl'       => null, // Source language
         'tl'       => null, // Target language
-        'text'     => null, // String to translate
+        'q'        => null, // String to translate
         'ie'       => 'UTF-8', // Input encoding
         'oe'       => 'UTF-8', // Output encoding
         'multires' => 1,
@@ -71,7 +72,7 @@ class TranslateClient
         'trs'      => 1,
         'ssel'     => 0,
         'tsel'     => 0,
-        'sc'       => 1,
+        'kc'       => 1,
         'tk'       => null,
     ];
 
@@ -301,6 +302,12 @@ class TranslateClient
             throw $e;
         }
 
+        // if response in text and the content has zero the empty returns true, lets check
+        // if response is string and not empty and create array for further logic
+        if (is_string($responseArray) && $responseArray != '') {
+            $responseArray = [$responseArray];
+        }
+
         // Check if translation exists
         if (!isset($responseArray[0]) || empty($responseArray[0])) {
             return false;
@@ -354,7 +361,7 @@ class TranslateClient
             if (is_array($responseArray[0])) {
                 return array_reduce($responseArray[0], function ($carry, $item) {
                     $carry .= $item[0];
-                    
+
                     return $carry;
                 });
             } else {
