@@ -48,7 +48,7 @@
 						<form method="post" action="goBuilder.php">		
 							
 							<div class="input-field" >
-								<input type="url"  value="<?php if (!empty($_GET['originalXmlURL'])){echo rawurldecode($_GET['originalXmlURL']);}?>" name="originalXmlURL" class="validate" />
+								<input type="url"  value="<?php if (!empty($_GET['originalXmlURL'])){echo rawurldecode($_GET['originalXmlURL']);}else if (!empty($_GET['url'])){echo rawurldecode($_GET['url']);}?>" name="originalXmlURL" class="validate" />
 								<label for="originalXmlURL">Github Strings.xml URL</label>
 							</div>						
 							
@@ -129,7 +129,7 @@
 						<form method="post" action="goBuilder.php">		
 							
 							<div class="input-field" >
-								<input type="url"  value="<?php if (!empty($_GET['originalXmlURL'])){echo rawurldecode($_GET['originalXmlURL']);} ?>" name="originalXmlURL" class="validate" />
+								<input type="url"  value="<?php if (!empty($_GET['originalXmlURL'])){echo rawurldecode($_GET['originalXmlURL']);}else if (!empty($_GET['url'])){echo rawurldecode($_GET['url']);} ?>" name="originalXmlURL" class="validate" />
 								<label for="originalXmlURL">Original Strings.xml URL</label>
 							</div>
 							
