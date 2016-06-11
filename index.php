@@ -52,7 +52,7 @@
 								<label for="originalXmlURL">Github Strings.xml URL</label>
 							</div>						
 							
-							<label for="translationLang">Your translaction language</label>		
+							<label for="translationLang">Your translation language</label>		
 							<div class="input-field">			
 								<select  name="translationLang">
 									<option value="" disabled selected >Choose the language that you know</option>
@@ -138,7 +138,7 @@
 								<label for="translatedXmlURL">Translated Strings.xml URL</label>
 							</div>	
 							
-							<label for="translationLang">Your translaction language</label>		
+							<label for="translationLang">Your translation language</label>		
 							<div class="input-field">			
 								<select  name="translationLang">
 									<option value="" disabled selected>Choose the language that you know</option>
