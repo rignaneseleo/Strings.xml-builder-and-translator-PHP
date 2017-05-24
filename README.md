@@ -12,7 +12,7 @@
 - The output contains only translated strings in the same order of the input
 
 
-## [LET S TRY StringsXmlBuilder](http://stringsxmlbuilder.netsons.org) !
+## [LET S TRY StringsXmlBuilder](http://stringsxmlbuilder.site88.net) !
 
 
 /////////////////////////////////////////////////////////////////////////////////////////// * \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
@@ -32,20 +32,20 @@
 ## CREATE YOUR OWN LINK:
 You can easly create your app link and share it to allow everyone to simply translate your app.
 ### To allow to choose the language:
-`http://stringsxmlbuilder.netsons.org/index.php?originalXmlURL=`**XML_LINK**
+`http://stringsxmlbuilder.site88.net/index.php?originalXmlURL=`**XML_LINK**
 
 #### To allow to update the translation choosing the language:
-`http://stringsxmlbuilder.netsons.org/index.php?originalXmlURL=`**Original_XML_LINK**`&translatedXmlURL=`**Old_XML_LINK** 
+`http://stringsxmlbuilder.site88.net/index.php?originalXmlURL=`**Original_XML_LINK**`&translatedXmlURL=`**Old_XML_LINK** 
 
 
 ### To translate directly:
 #### For a generic language (with all empty):
 
-`http://stringsxmlbuilder.netsons.org/builder.php?originalXmlURL=`**XML_LINK** 
+`http://stringsxmlbuilder.site88.net/builder.php?originalXmlURL=`**XML_LINK** 
 
 #### For a specific language:
 
-`http://stringsxmlbuilder.netsons.org/builder.php?originalXmlURL=`**XML_LINK**`&translationLang=` **TRANSLATION_LANGUAGE**
+`http://stringsxmlbuilder.site88.net/builder.php?originalXmlURL=`**XML_LINK**`&translationLang=` **TRANSLATION_LANGUAGE**
 
 ### Supported language: [GOOGLE APIs](https://cloud.google.com/translate/v2/translate-reference#supported_languages) 
 
