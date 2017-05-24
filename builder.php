@@ -55,7 +55,7 @@
 							//add library to translate the strings
 							require 'vendor/autoload.php';
 							use Stichoza\GoogleTranslate\TranslateClient;
-							echo TranslateClient::translate('en', 'ka', 'Hello again');//debug
+							//echo TranslateClient::translate('en', 'ka', 'Hello again');//debug
 							$translationError=false;
 							
 							if (!empty($_GET["originalXmlURL"])){
