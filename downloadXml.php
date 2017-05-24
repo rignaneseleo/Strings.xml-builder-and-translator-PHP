@@ -39,23 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {//if there is a POST request
 			}
 		}
 		echo '</resources>';
-		/*
-		$resources = new SimpleXMLElement('<resources/>');//create an xml file with the tag <resources>
-
-		$resources->addChild('!-- TRANSLATION IS MADE BY '.$_POST['username'].'  using  Strings.xml Builder --><rignaneseleo');
-
-		foreach($_POST[translatedValueIds] as   $key=>$value)
-		{
-		$value=str_replace("'", "\'", $value);//add the \'
-
-		$string = $resources->addChild('string',$value);//create a <string> with its value
-		$string->addAttribute("name",$key);//set the "name" at the <string>
-		}
-
-		$xml =$resources->asXML();
-		header('Content-Type: application/xml;');
-		header('Content-Disposition: attachment; filename="strings.xml"');
-		echo $xml;*/
+		
 	}
 }
 ?>
