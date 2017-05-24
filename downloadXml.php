@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {//if there is a POST request
 ';
 		echo '<!-- THIS TRANSLATION IS MADE BY '.$_POST['username'].' USING StringsXmlBuilder -->
 ';
-		echo '<!-- StringsXmlBuilder is an OPEN SOURCE tool realized by rignaneseleo <rignanese.leo@gmail.com>-->
+		echo '<!-- StringsXmlBuilder is an OPEN SOURCE tool realized by rignaneseleo <dev.rignaneseleo@gmail.com>-->
 ';
 		echo '<!-- https://github.com/rignaneseleo/Strings.xml-builder-and-translator-PHP -->
 ';
