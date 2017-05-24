@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8c9e94492c53327441171f35cd535cb7",
     "content-hash": "c00d5a3aa2b5615b7e1c426f34cd9ae3",
     "packages": [
         {
@@ -67,7 +66,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-03-21 20:02:09"
+            "time": "2016-03-21T20:02:09+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -118,7 +117,7 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-05-18 16:56:05"
+            "time": "2016-05-18T16:56:05+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -176,7 +175,7 @@
                 "stream",
                 "uri"
             ],
-            "time": "2016-04-13 19:56:01"
+            "time": "2016-04-13T19:56:01+00:00"
         },
         {
             "name": "psr/http-message",
@@ -225,20 +224,20 @@
                 "request",
                 "response"
             ],
-            "time": "2015-05-04 20:22:00"
+            "time": "2015-05-04T20:22:00+00:00"
         },
         {
             "name": "stichoza/google-translate-php",
-            "version": "v3.2.8",
+            "version": "v3.2.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Stichoza/google-translate-php.git",
-                "reference": "0e07828824c46f1bfd1822d824cf805211bf98a9"
+                "reference": "a029d8b93b201ddfeba60375837d27c6fcb00376"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Stichoza/google-translate-php/zipball/0e07828824c46f1bfd1822d824cf805211bf98a9",
-                "reference": "0e07828824c46f1bfd1822d824cf805211bf98a9",
+                "url": "https://api.github.com/repos/Stichoza/google-translate-php/zipball/a029d8b93b201ddfeba60375837d27c6fcb00376",
+                "reference": "a029d8b93b201ddfeba60375837d27c6fcb00376",
                 "shasum": ""
             },
             "require": {
@@ -274,7 +273,7 @@
                 "php",
                 "translate"
             ],
-            "time": "2016-05-16 08:35:53"
+            "time": "2016-09-14T11:42:35+00:00"
         }
     ],
     "packages-dev": [],
