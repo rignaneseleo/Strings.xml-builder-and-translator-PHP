@@ -16,12 +16,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {//if there is a POST request
 
 		//check parameters
 		$URLparameters="";
-
-		if (!empty(trim($_POST["translatedXmlURL"]))){
-			$translatedXmlURL=$_POST["translatedXmlURL"];//get the url of the translated strings.xml file
-			//todo validateXmlURL
-			$URLparameters.="&translatedXmlURL=".$translatedXmlURL;
-		}
+		if(isset($_POST["translatedXmlURL"]))
+			if (!empty(trim($_POST["translatedXmlURL"]))){
+				$translatedXmlURL=$_POST["translatedXmlURL"];//get the url of the translated strings.xml file
+				//todo validateXmlURL
+				$URLparameters.="&translatedXmlURL=".$translatedXmlURL;
+			}
 
 		$translationLang=$_POST["translationLang"];//get the translation language
 		if (!empty($translationLang)) $URLparameters.="&translationLang=".$translationLang;
